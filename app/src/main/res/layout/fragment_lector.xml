@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hiram.curiousapps.catalogoproductos.LectorFragment"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--Button
+        android:text="ABRIR CAMARA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAbrir"
+        android:layout_marginTop="20dp"
+        android:onClick="scanNow"
+    /-->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/barcode"
+        android:id="@+id/btnAbrir" />
+</LinearLayout>

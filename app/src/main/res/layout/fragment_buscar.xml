@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.hiram.curiousapps.catalogoproductos.BuscarFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="Ingresar código de barras:"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etCodigo" />
+
+    <Button
+        android:text="BUSCAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBuscar"
+        android:onClick="scanNow"/>
+
+    <TextView
+        android:text="Nombre del producto:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNombre" />
+
+    <TextView
+        android:text="Precio del producto:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/etPrecio" />
+
+    <TextView
+        android:text="Descripción:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/etDescripcion" />
+
+</LinearLayout>
